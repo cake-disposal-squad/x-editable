@@ -636,7 +636,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
     
     //engine
     $.fn.editableform.engine = 'jquery';
-}(window.jQuery));
+}(jQuery));
 
 /**
 * EditableForm utilites
@@ -886,7 +886,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
        }            
        
     };      
-}(window.jQuery));
+}(jQuery));
 
 /**
 Attaches stand-alone container with editable-form to HTML element. Element is used only for positioning, value is not stored anywhere.<br>
@@ -1402,7 +1402,7 @@ Applied as jQuery method.
         }
     };    
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 * Editable Inline 
@@ -1457,7 +1457,7 @@ Applied as jQuery method.
         } 
     });
 
-}(window.jQuery));
+}(jQuery));
 /**
 Makes editable any HTML element on the page. Applied as jQuery method.
 
@@ -2315,7 +2315,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
         highlight: '#FFFF80'
     };
     
-}(window.jQuery));
+}(jQuery));
 
 /**
 AbstractInput - base class for all editable inputs.
@@ -2536,7 +2536,7 @@ To create your own input you can inherit from this class.
     
     $.extend($.fn.editabletypes, {abstractinput: AbstractInput});
         
-}(window.jQuery));
+}(jQuery));
 
 /**
 List - abstract class for inputs that have source option loaded from js array or via ajax
@@ -2872,7 +2872,7 @@ List - abstract class for inputs that have source option loaded from js array or
 
     $.fn.editabletypes.list = List;      
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 Text input
@@ -3007,7 +3007,7 @@ $(function(){
 
     $.fn.editabletypes.text = Text;
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 Textarea input
@@ -3119,7 +3119,7 @@ $(function(){
 
     $.fn.editabletypes.textarea = Textarea;
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 Select (dropdown)
@@ -3216,7 +3216,7 @@ $(function(){
 
     $.fn.editabletypes.select = Select;      
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 List of checkboxes. 
@@ -3373,7 +3373,7 @@ $(function(){
 
     $.fn.editabletypes.checklist = Checklist;      
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 HTML5 input types.
@@ -3441,7 +3441,7 @@ Password
         tpl: '<input type="password">'
     });
     $.fn.editabletypes.password = Password;
-}(window.jQuery));
+}(jQuery));
 
 
 /*
@@ -3458,7 +3458,7 @@ Email
         tpl: '<input type="email">'
     });
     $.fn.editabletypes.email = Email;
-}(window.jQuery));
+}(jQuery));
 
 
 /*
@@ -3475,7 +3475,7 @@ Url
         tpl: '<input type="url">'
     });
     $.fn.editabletypes.url = Url;
-}(window.jQuery));
+}(jQuery));
 
 
 /*
@@ -3492,7 +3492,7 @@ Tel
         tpl: '<input type="tel">'
     });
     $.fn.editabletypes.tel = Tel;
-}(window.jQuery));
+}(jQuery));
 
 
 /*
@@ -3535,7 +3535,7 @@ Number
         step: null
     });
     $.fn.editabletypes.number = NumberInput;
-}(window.jQuery));
+}(jQuery));
 
 
 /*
@@ -3570,7 +3570,7 @@ Range (inherit from number)
         inputclass: 'input-medium'
     });
     $.fn.editabletypes.range = Range;
-}(window.jQuery));
+}(jQuery));
 
 /*
 Time
@@ -3592,7 +3592,7 @@ Time
         tpl: '<input type="time">'
     });
     $.fn.editabletypes.time = Time;
-}(window.jQuery));
+}(jQuery));
 
 /**
 Select2 input. Based on amazing work of Igor Vaynberg https://github.com/ivaynberg/select2.  
@@ -3941,7 +3941,7 @@ $(function(){
 
     $.fn.editabletypes.select2 = Constructor;
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 * Combodate - 1.0.5
@@ -4428,7 +4428,7 @@ $(function(){
         smartDays: false // whether days in combo depend on selected month: 31, 30, 28
     };
 
-}(window.jQuery));
+}(jQuery));
 /**
 Combodate input - dropdown date and time picker.    
 Based on [combodate](http://vitalets.github.com/combodate) plugin (included). To use it you should manually include [momentjs](http://momentjs.com).
@@ -4625,7 +4625,7 @@ $(function(){
 
     $.fn.editabletypes.combodate = Constructor;
 
-}(window.jQuery));
+}(jQuery));
 
 /*
 Editableform based on Twitter Bootstrap 3
@@ -4690,7 +4690,7 @@ Editableform based on Twitter Bootstrap 3
     $.fn.editableform.errorBlockClass = null;  
     //engine
     $.fn.editableform.engine = 'bs3';  
-}(window.jQuery));
+}(jQuery));
 /**
 * Editable Popover3 (for Bootstrap 3) 
 * ---------------------
@@ -4916,7 +4916,7 @@ Editableform based on Twitter Bootstrap 3
         }            
     });
 
-}(window.jQuery));
+}(jQuery));
 
 /* =========================================================
  * bootstrap-datepicker.js
@@ -6171,7 +6171,7 @@ Editableform based on Twitter Bootstrap 3
         datepicker.call($('[data-provide="datepicker-inline"]'));
 	});
 
-}( window.jQuery ));
+}(jQuery));
 
 /**
 Bootstrap-datepicker.  
@@ -6401,7 +6401,7 @@ $(function(){
 
     $.fn.editabletypes.date = Date;
 
-}(window.jQuery));
+}(jQuery));
 
 /**
 Bootstrap datefield input - modification for inline mode.
@@ -6483,7 +6483,7 @@ Automatically shown in inline mode.
     
     $.fn.editabletypes.datefield = DateField;
 
-}(window.jQuery));
+}(jQuery));
 /**
 Bootstrap-datetimepicker.  
 Based on [smalot bootstrap-datetimepicker plugin](https://github.com/smalot/bootstrap-datetimepicker). 
@@ -6727,7 +6727,7 @@ $(function(){
 
     $.fn.editabletypes.datetime = DateTime;
 
-}(window.jQuery));
+}(jQuery));
 /**
 Bootstrap datetimefield input - datetime input for inline mode.
 Shows normal <input type="text"> and binds popup datetimepicker.  
@@ -6804,4 +6804,4 @@ Automatically shown in inline mode.
     
     $.fn.editabletypes.datetimefield = DateTimeField;
 
-}(window.jQuery));
+}(jQuery));
